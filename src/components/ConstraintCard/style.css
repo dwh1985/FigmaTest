@@ -1,0 +1,151 @@
+.constraint-card {
+  align-items: flex-start;
+  background-color: #1b1b1b;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 500px;
+  min-width: 310px;
+  overflow: hidden;
+  padding: 16px 16px 20px;
+  position: relative;
+}
+
+.constraint-card .top {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 8px;
+  display: flex;
+  height: 32px;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.constraint-card .primary-label {
+  color: var(--textdefaultdarkprimary);
+  font-family: var(--paragraph-styles-heading-4-font-family);
+  font-size: var(--paragraph-styles-heading-4-font-size);
+  font-style: var(--paragraph-styles-heading-4-font-style);
+  font-weight: var(--paragraph-styles-heading-4-font-weight);
+  letter-spacing: var(--paragraph-styles-heading-4-letter-spacing);
+  line-height: var(--paragraph-styles-heading-4-line-height);
+  position: relative;
+}
+
+.constraint-card .button-deletegate-instance {
+  flex: 0 0 auto !important;
+}
+
+.constraint-card .bottom {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.constraint-card .blocked-line {
+  align-self: stretch;
+  position: relative;
+}
+
+.constraint-card .text-wrapper-3 {
+  color: #c4c4c4;
+  flex: 1;
+  font-family: var(--roboto-14pt-regular-font-family);
+  font-size: var(--roboto-14pt-regular-font-size);
+  font-style: var(--roboto-14pt-regular-font-style);
+  font-weight: var(--roboto-14pt-regular-font-weight);
+  letter-spacing: var(--roboto-14pt-regular-letter-spacing);
+  line-height: var(--roboto-14pt-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.constraint-card .span {
+  color: #c4c4c4;
+  font-family: var(--roboto-14pt-regular-font-family);
+  font-size: var(--roboto-14pt-regular-font-size);
+  font-style: var(--roboto-14pt-regular-font-style);
+  font-weight: var(--roboto-14pt-regular-font-weight);
+  letter-spacing: var(--roboto-14pt-regular-letter-spacing);
+  line-height: var(--roboto-14pt-regular-line-height);
+}
+
+.constraint-card .text-wrapper-4 {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.constraint-card .text-wrapper-5 {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.constraint-card .fitment-group {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 8px 8px;
+  position: relative;
+  width: 100%;
+}
+
+.constraint-card .chip-instance {
+  color: #c4c4c4 !important;
+  flex: unset !important;
+  white-space: nowrap !important;
+  width: fit-content !important;
+}
+
+.constraint-card .instance-node {
+  background-color: #2b2b2b !important;
+  border: unset !important;
+  border-color: unset !important;
+  flex: 0 0 auto !important;
+  height: unset !important;
+}
+
+.constraint-card.state-enabled {
+  border: 1px solid;
+  border-color: #1b1b1b;
+}
+
+.constraint-card.state-hover {
+  border: 2px solid;
+  border-color: #c4c4c4;
+}
+
+.constraint-card.state-enabled .primary-label {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.constraint-card.state-hover .primary-label {
+  flex: 1;
+}
+
+.constraint-card.state-enabled .blocked-line {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  width: 100%;
+}
+
+.constraint-card.state-hover .blocked-line {
+  color: transparent;
+  font-family: "Roboto", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+}

@@ -1,0 +1,98 @@
+:root {
+  --aileron-blue-100: rgba(79, 158, 248, 1);
+  --aileron-blue-90: rgba(40, 136, 246, 1);
+  --backgroundsfillsdarkprimary: rgba(26, 148, 255, 1);
+  --collection-1-terminal-selection-a: initial;
+  --collection-1-terminal-selection-b: none;
+  --collection-1-terminal-selection-c: none;
+  --collection-1-terminal-selection-d: none;
+  --darksurfacebase: rgba(0, 0, 0, 1);
+  --darktextprimary: rgba(255, 255, 255, 1);
+  --EUX-styleguide-dark-surface-base: rgba(0, 0, 0, 1);
+  --EUX-styleguide-dark-surface-primary: rgba(27, 27, 27, 1);
+  --EUX-styleguide-dark-surface-secondary: rgba(43, 43, 43, 1);
+  --EUX-styleguide-dark-text-emphasized: rgba(26, 148, 255, 1);
+  --EUX-styleguide-dark-text-inverse-primary: rgba(27, 27, 27, 1);
+  --EUX-styleguide-dark-text-primary: rgba(255, 255, 255, 1);
+  --EUX-styleguide-dark-text-secondary: rgba(196, 196, 196, 1);
+  --EUX-styleguide-text-inverse-emphasized: rgba(26, 148, 255, 1);
+  --input-field-active-light: ;
+  --neutraltextprimary: rgba(220, 222, 224, 1);
+  --paragraph-styles-heading-4-font-family: "Roboto-Bold", Helvetica;
+  --paragraph-styles-heading-4-font-size: 16px;
+  --paragraph-styles-heading-4-font-style: normal;
+  --paragraph-styles-heading-4-font-weight: 700;
+  --paragraph-styles-heading-4-letter-spacing: 0px;
+  --paragraph-styles-heading-4-line-height: 24px;
+  --roboto-14pt-medium-font-family: "Roboto-Medium", Helvetica;
+  --roboto-14pt-medium-font-size: 14px;
+  --roboto-14pt-medium-font-style: normal;
+  --roboto-14pt-medium-font-weight: 500;
+  --roboto-14pt-medium-letter-spacing: 0px;
+  --roboto-14pt-medium-line-height: 20px;
+  --roboto-14pt-regular-font-family: "Roboto-Regular", Helvetica;
+  --roboto-14pt-regular-font-size: 14px;
+  --roboto-14pt-regular-font-style: normal;
+  --roboto-14pt-regular-font-weight: 400;
+  --roboto-14pt-regular-letter-spacing: 0px;
+  --roboto-14pt-regular-line-height: 20px;
+  --strokedark: rgba(74, 74, 74, 1);
+  --textdefaultdarkactive: rgba(26, 148, 255, 1);
+  --textdefaultdarkprimary: rgba(255, 255, 255, 1);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-collection-1-mode="terminal-a-selected">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-collection-1-mode="terminal-a-selected"] {
+  --collection-1-terminal-selection-a: initial;
+  --collection-1-terminal-selection-b: none;
+  --collection-1-terminal-selection-c: none;
+  --collection-1-terminal-selection-d: none;
+}
+
+[data-collection-1-mode="terminal-b-selected"] {
+  --collection-1-terminal-selection-a: none;
+  --collection-1-terminal-selection-b: initial;
+  --collection-1-terminal-selection-c: none;
+  --collection-1-terminal-selection-d: none;
+}
+
+[data-collection-1-mode="terminal-c-selected"] {
+  --collection-1-terminal-selection-a: none;
+  --collection-1-terminal-selection-b: none;
+  --collection-1-terminal-selection-c: initial;
+  --collection-1-terminal-selection-d: none;
+}
+
+[data-collection-1-mode="terminal-d-selected"] {
+  --collection-1-terminal-selection-a: none;
+  --collection-1-terminal-selection-b: none;
+  --collection-1-terminal-selection-c: none;
+  --collection-1-terminal-selection-d: initial;
+}
+
+[data-EUX-styleguide-mode="original-light"] {
+  --EUX-styleguide-text-inverse-emphasized: rgba(26, 148, 255, 1);
+}
+
+[data-EUX-styleguide-mode="original-dark"] {
+  --EUX-styleguide-text-inverse-emphasized: rgba(8, 90, 189, 1);
+}
+
+[data-EUX-styleguide-mode="new-light"] {
+  --EUX-styleguide-text-inverse-emphasized: var(--aileron-blue-100);
+}
+
+[data-EUX-styleguide-mode="new-dark"] {
+  --EUX-styleguide-text-inverse-emphasized: var(--aileron-blue-90);
+}

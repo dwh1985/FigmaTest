@@ -1,0 +1,1 @@
+export { ButtonDeletegate } from "./ButtonDeletegate";

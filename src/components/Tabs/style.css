@@ -1,0 +1,118 @@
+.tabs {
+  background-color: #000000;
+  height: 48px;
+  position: relative;
+  width: 468px;
+}
+
+.tabs .overlap-group {
+  height: 48px;
+  position: relative;
+}
+
+.tabs .indicator-container {
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 468px;
+}
+
+.tabs .active-indicator-2 {
+  background-color: var(--textdefaultdarkactive);
+  border-radius: 2px 2px 0px 0px;
+  height: 2px;
+  position: relative;
+  top: 46px;
+}
+
+.tabs .tab-container {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 468px;
+}
+
+.tabs .class {
+  -webkit-backdrop-filter: unset !important;
+  backdrop-filter: unset !important;
+  box-shadow: unset !important;
+  flex: 0 0 auto !important;
+}
+
+.tabs .class-2 {
+  -webkit-backdrop-filter: unset !important;
+  backdrop-filter: unset !important;
+  box-shadow: unset !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.tabs .class-3 {
+  color: #1a94ff !important;
+}
+
+.tabs .class-4 {
+  -webkit-backdrop-filter: unset !important;
+  backdrop-filter: unset !important;
+  box-shadow: unset !important;
+  left: 70px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.tabs .class-5 {
+  -webkit-backdrop-filter: unset !important;
+  backdrop-filter: unset !important;
+  box-shadow: unset !important;
+  left: 143px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.tabs .class-6 {
+  -webkit-backdrop-filter: unset !important;
+  backdrop-filter: unset !important;
+  box-shadow: unset !important;
+  left: 308px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.tabs .adjacent-constraint-selected {
+  left: 308px;
+  width: 160px;
+}
+
+.tabs .zone-selected {
+  left: 70px;
+  width: 57px;
+}
+
+.tabs .gate-selected {
+  width: 54px;
+}
+
+.tabs .pushback-conflict-selected {
+  left: 143px;
+  width: 149px;
+}
+
+.tabs .selection-adjacent-constraint-selected {
+  height: 48px;
+}
+
+.tabs .selection-zone-selected {
+  height: 48px;
+}
+
+.tabs .selection-gate-selected {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+}
+
+.tabs .selection-pushback-conflict-selected {
+  height: 48px;
+}

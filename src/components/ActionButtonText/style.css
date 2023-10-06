@@ -1,0 +1,35 @@
+.action-button-text {
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  gap: 8px;
+  height: 36px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0px 16px;
+  position: relative;
+  width: 110px;
+}
+
+.action-button-text .tab-label-3 {
+  align-self: stretch;
+  font-family: "Roboto", Helvetica;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-left: -1px;
+  margin-right: -1px;
+  position: relative;
+  text-align: center;
+  width: 80px;
+}
+
+.action-button-text .state-selected {
+  color: var(--textdefaultdarkactive);
+  font-weight: 600;
+}
+
+.action-button-text .state-unselected {
+  color: #c4c4c4;
+  font-weight: 400;
+}

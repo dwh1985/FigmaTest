@@ -1,0 +1,55 @@
+.tab-button-text {
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  backdrop-filter: blur(4px) brightness(100%);
+  box-shadow: var(--input-field-active-light);
+  gap: 12px;
+  height: 48px;
+  justify-content: center;
+  position: relative;
+}
+
+.tab-button-text .tab-label {
+  color: var(--textdefaultdarkprimary);
+  font-family: "Roboto", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tab-button-text .active-indicator {
+  background-color: var(--textdefaultdarkactive);
+  border-radius: 2px 2px 0px 0px;
+  flex: 1;
+  flex-grow: 1;
+  height: 2px;
+  position: relative;
+}
+
+.tab-button-text .tab-label-2 {
+  color: var(--EUX-styleguide-text-inverse-emphasized);
+  font-family: "Roboto", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 18px;
+  white-space: nowrap;
+}
+
+.tab-button-text.selected {
+  align-items: flex-end;
+  display: flex;
+  width: 149px;
+}
+
+.tab-button-text.enabled {
+  align-items: center;
+  display: inline-flex;
+  padding: 12px 10px;
+}

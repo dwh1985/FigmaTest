@@ -1,0 +1,42 @@
+.button-deletegate {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  gap: 4px;
+  height: 32px;
+  justify-content: flex-end;
+  overflow: hidden;
+  position: relative;
+}
+
+.button-deletegate .delete {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.button-deletegate .text-wrapper-2 {
+  color: #ff6669;
+  font-family: "Roboto", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button-deletegate.hover-text {
+  background-color: #ff66691a;
+  padding: 0px 8px 0px 4px;
+}
+
+.button-deletegate.hover-1 {
+  background-color: #ff66691a;
+  padding: 0px 4px;
+}
+
+.button-deletegate.default {
+  padding: 0px 4px;
+}

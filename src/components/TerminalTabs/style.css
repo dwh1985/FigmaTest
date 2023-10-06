@@ -1,0 +1,42 @@
+.terminal-tabs {
+  height: 36px;
+  position: relative;
+  width: 488px;
+}
+
+.terminal-tabs .overlap-group-2 {
+  height: 36px;
+  position: relative;
+}
+
+.terminal-tabs .terminal-b {
+  left: 126px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.terminal-tabs .terminal-c {
+  left: 252px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.terminal-tabs .terminal-d {
+  left: 378px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.terminal-tabs .terminal-a {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.terminal-tabs .buttons {
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 488px;
+}
